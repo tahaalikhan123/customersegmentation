@@ -57,6 +57,7 @@ Install Jupyter using pip by running:
 ```python
 pip install jupyter
 ```
+Open a jupyter notebook
 ```python
 jupyter notebook
 ```
