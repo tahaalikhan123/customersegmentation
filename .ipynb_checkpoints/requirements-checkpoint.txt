@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+shap
+missingno
+ydata-profiling
+scipy
+yellowbrick
+scikit-learn
