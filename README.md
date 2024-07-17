@@ -63,9 +63,30 @@ jupyter notebook
 ## Necessary Imports
 ```python
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import plotly.graph_objects as go
+import shap
+import warnings
+import missingno as msno
+from ydata_profiling import ProfileReport
+from scipy import stats
+from yellowbrick.cluster import KElbowVisualizer
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.metrics import classification_report, confusion_matrix, roc_curve, roc_auc_score, accuracy_score
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.manifold import TSNE
+from sklearn.feature_selection import RFE
+from sklearn.ensemble import VotingClassifier
+```
+## Install all the imports with a single command :
+```python
+pip install -r requirements.txt
 ```
