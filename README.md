@@ -50,6 +50,16 @@ Design loyalty programs based on customer spending behavior and preferences.
 #### Sales Analysis: 
 Analyze sales patterns and predict future trends.
 
+####  Customer Recency, Frequency, and Monetary - RFM.
+RFM (Recency, Frequency, and Monetary) analysis is a marketing technique used to segment customers based on their purchasing behavior. It considers three factors:
+
+Recency (R): How recently a customer made a purchase.
+
+Frequency (F): How often a customer makes a purchase.
+
+Monetary (M): How much money a customer spends on purchase.
+
+
 ## Installation and Usage
 Open a command prompt or terminal.
 
